@@ -7,8 +7,7 @@ Maintained consistently high levels of customer satisfaction, receiving positive
 Adapted quickly to changing priorities and managed high-stress situations with professionalism.
 
 Technical Skills:
-Front-End Technologies: HTML, CSS, JavaScript
-Back-End Technologies: Node.js
+Front-End Technologies: HTML, CSS, JavaScript , React
 Version Control: Git and GitHub
 
 Education:

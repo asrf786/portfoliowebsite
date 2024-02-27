@@ -247,10 +247,9 @@ span {
 .about-container h2,
 h4 {
   margin: 0;
-  margin-top: 30px;
 }
 .about-container > .item > ul > li {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .item {
   display: flex;

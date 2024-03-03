@@ -1,3 +1,28 @@
+body {
+  background-color: azure;
+}
 .cover-container {
   max-width: 42em;
+}
+#head-nav {
+  background-color: cadetblue;
+}
+#head-nav ul li a {
+  color: white;
+}
+/* .exp-item {
+  /* width: 45%; */
+/* border: 2px solid cadetblue; */
+/* display: inline-block; */
+
+#tech-div {
+  border: 5px solid cadetblue;
+  border-radius: 5px;
+}
+.project-title {
+  border-radius: 20px;
+  text-align: center;
+}
+.right-li {
+  text-align: left;
 }

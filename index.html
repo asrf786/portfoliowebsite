@@ -18,7 +18,8 @@
       <div class="container">
         <!-- <nav class=""> -->
         <header
-          class="d-flex justify-content-center navbar fixed-top bg-body-tertiary"
+          class="d-flex justify-content-center navbar fixed-top"
+          id="head-nav"
         >
           <ul class="nav nav-pills">
             <li class="nav-item">
@@ -103,234 +104,195 @@
 
         <div
           class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"
+          id="tech-div"
         >
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">JavaScript</h3>
-          </div>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">ES6+ Features</h3>
-          </div>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
-              DOM Manipulation
-            </h3>
-          </div>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">jQuery</h3>
-          </div>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
-          </div>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CSS</h3>
-          </div>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
-              Responsive Web Design
-            </h3>
-          </div>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Media Queries</h3>
-          </div>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Flexbox</h3>
-          </div>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Grid</h3>
-          </div>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Bootstrap</h3>
-          </div>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">React.js</h3>
-          </div>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">MySQL</h3>
-          </div>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
-              Version Control: Git and GitHub
-            </h3>
-          </div>
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">RESTful APIs</h3>
-          </div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">JavaScript</h3>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">ES6+ Features</h3>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">DOM Manipulation</h3>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">jQuery</h3>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CSS</h3>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Media Queries</h3>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Flexbox</h3>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Grid</h3>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Bootstrap</h3>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">React.js</h3>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">MySQL</h3>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Git and GitHub</h3>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">RESTful APIs</h3>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+            Responsive Web Design
+          </h3>
         </div>
       </div>
       <!-- Technical Section End -->
 
       <!-- Project Details Start-->
-      <div class="container px-4 py-5" id="hanging-icons">
-        <h2 class="pb-2 border-bottom py-5 my-5" id="project-section">
-          Projects Details:
-        </h2>
-        <div class="row g-4 row-cols-1 row-cols-lg-3">
-          <div class="col d-flex align-items-start">
-            <div>
-              <h3 class="fs-2 text-body-emphasis">Virtual BANK</h3>
-              <p>ES6+ | JavaScript | DOM | CSS | HTML</p>
-              <a
-                href="https://asrf786.github.io/virtual-bank/"
-                class="btn btn-success"
-                target="_blank"
-              >
-                Live Website
-              </a>
-              <ul>
-                <li>
-                  Array Methods: forEach Method, split, map, filter, reduce,
-                  join, find, push, and pop for efficient data handling.
-                </li>
-                <li>HTML, CSS, JavaScript (ES6)</li>
-                <li>
-                  DOM Manipulation: click events, keydown events, add/remove
-                  classes, and more.
-                </li>
-                <li>
-                  Objects & Arrays, Date ,Callback Functions, Arrow Functions
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/asrf786/virtual-bank.git"
-                    target="_blank"
-                    >GitHub Repository</a
+      <div class="container px-4 py-5" id="project-section">
+        <h2 class="pb-2 border-bottom my-5">Projects Details:</h2>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Virtual BANK</h4>
+              </div>
+
+              <div class="card-body">
+                <ul class="mt-3 mb-4 right-li">
+                  <li>
+                    Array Methods: forEach , split, map, filter, reduce, join,
+                    find, push and pop.
+                  </li>
+                  <li>
+                    DOM Manipulation: click events, keydown events, add/remove
+                    classes, and more.
+                  </li>
+                  <li>Date, Callback & Arrow Functions</li>
+                  <li>
+                    <a
+                      href="https://github.com/asrf786/virtual-bank.git"
+                      target="_blank"
+                      >GitHub Repository</a
+                    >
+                  </li>
+                </ul>
+
+                <a
+                  href="https://asrf786.github.io/virtual-bank/"
+                  target="_blank"
+                >
+                  <button
+                    type="button"
+                    class="w-100 btn btn-lg btn-outline-primary"
                   >
-                </li>
-              </ul>
+                    Live Website
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="col d-flex align-items-start">
-            <div>
-              <h3 class="fs-2 text-body-emphasis">Guess Magic Number</h3>
-              <p>Exciting JavaScript | DOM | CSS | HTML Project</p>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Guess Magic Number</h4>
+              </div>
 
-              <a
-                href="https://asrf786.github.io/Guess-Magic-number/"
-                class="btn btn-success"
-                target="_blank"
-              >
-                Live Website
-              </a>
-              <ul>
-                <li>GitHub Branch Management</li>
-                <li>
-                  Dynamic CSS Manipulation: Learn how to add and remove CSS
-                  classes using the DOM.
-                </li>
-                <li>
-                  JavaScript Loop Mastery: Dive into the world of JavaScript
-                  loops, including the classic For Loop and If-Else statements.
-                </li>
-                <li>
-                  Ternary Operators in ES6+: Explore concise coding with Ternary
-                  Operators (Cond ? True : False).
-                </li>
-                <li>
-                  Interactive Event Handling: Implement Event Listeners,
-                  specifically for click events, and add a touch of flair with
-                  hover effects.
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/asrf786/Guess-Magic-number.git"
-                    target="_blank"
-                    >GitHub Repository</a
+              <div class="card-body">
+                <ul class="mt-3 mb-4 right-li">
+                  <li>GitHub Branch Management</li>
+                  <li>
+                    Dynamic CSS Manipulation: Add and remove CSS classes using
+                    the DOM.
+                  </li>
+                  <li>JavaScript Loop: if Else , For</li>
+                  <li>Ternary Operators in ES6+</li>
+                  <li>Interactive Event Handling</li>
+                  <li>
+                    <a
+                      href="https://github.com/asrf786/Guess-Magic-number.git"
+                      target="_blank"
+                      >GitHub Repository</a
+                    >
+                  </li>
+                </ul>
+
+                <a
+                  href="https://asrf786.github.io/Guess-Magic-number/"
+                  target="_blank"
+                >
+                  <button
+                    type="button"
+                    class="w-100 btn btn-lg btn-outline-primary"
                   >
-                </li>
-              </ul>
+                    Live Website
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="col d-flex align-items-start">
-            <div>
-              <h3 class="fs-2 text-body-emphasis">To-Do List App</h3>
-              <p>React | HTML | CSS |ES6+</p>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">To-Do List App</h4>
+              </div>
 
-              <a
-                href="https://github.com/asrf786/my-react-app.git"
-                class="btn btn-success"
-                target="_blank"
-              >
-                GitHub Repository
-              </a>
-              <ul>
-                <li>
-                  Add and Remove Functionality: Implemented seamless
-                  functionality to add and remove tasks dynamically, enhancing
-                  user experience.
-                </li>
-                <li>
-                  React Components: Utilized React components for efficient and
-                  modular code organization, contributing to maintainability and
-                  scalability.
-                </li>
-                <li>
-                  State Management: Effectively managed application state using
-                  React state and props, ensuring smooth and controlled data
-                  flow within the application.
-                </li>
-                <li>
-                  Responsive Design: Ensured a responsive design for optimal
-                  user experience across various devices, demonstrating a
-                  commitment to user-centric development.
-                </li>
-              </ul>
+              <div class="card-body">
+                <ul class="mt-3 mb-4 right-li">
+                  <li>Add and Remove Functionality</li>
+                  <li>
+                    React Components: Utilized React components for efficient
+                    and modular code organization
+                  </li>
+                  <li>State Management</li>
+                  <li>
+                    Responsive Design: user experience across various devices
+                  </li>
+                </ul>
+                <a
+                  href="https://github.com/asrf786/my-react-app.git"
+                  target="_blank"
+                >
+                  <button
+                    type="button"
+                    class="w-100 btn btn-lg btn-outline-primary"
+                  >
+                    GitHub Repository
+                  </button></a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
       <!-- Project Details End-->
 
-      <!-- Experience Start -->
-      <div class="px-4">
-        <h2 class="pb-2 border-bottom py-5 my-5" id="experience-section">
-          Professional Experience:
-        </h2>
+      <!--Experience Section Start  -->
+      <div
+        class="row align-items-center py-5 px-4 my-5"
+        id="experience-section"
+      >
+        <h2 class="pb-2 border-bottom py-2">Professional Experience:</h2>
 
-        <h4 class="py-2">
-          Customer Service Advisor (BT consumer Group - Leeds) February 2023
-          -Current
-        </h4>
-        <div class="mx-auto">
-          <ul>
-            <li>
-              Selected as <span>a Floor Worker (Grad Bay Coach)</span>,
-              demonstrating <span>leadership and mentoring </span>skills to
-              guide and support colleagues.
-            </li>
-            <li>
-              Actively contributed as part of the<span>
-                Brand Migration Team</span
-              >, playing a pivotal role in ensuring a smooth transition during
-              the company's brand migration process.
-            </li>
-            <li>
-              Provided exceptional <span>customer support</span> and assistance
-              to broadband customers, ensuring their technical and non-technical
-              issues were resolved promptly.
-            </li>
-            <li>
-              Demonstrated exceptional <span>communication skills</span>,
-              ensuring effective handling of customer inquiries and complex
-              problems.
-            </li>
-            <li>
-              Collaborated with cross-functional <span>teams</span> to optimize
-              customer service processes and enhance efficiency.
-            </li>
-            <li>
-              Maintained consistently high levels of customer satisfaction,
-              receiving <span>positive feedback</span>.
-            </li>
-          </ul>
+        <div class="col-lg-7 text-center text-lg-start">
+          <h6>2023 - Current</h6>
+          <h5>Customer Service Advisor (BT consumer Group - Leeds)</h5>
+
+          <div class="mx-auto">
+            <ul>
+              <li class="py-3">
+                Selected as <span>a Floor Worker (Grad Bay Coach)</span>,
+                demonstrating <span>leadership and mentoring </span>skills to
+                guide and support colleagues.
+              </li>
+              <li class="py-3">
+                Actively contributed as part of the<span>
+                  Brand Migration Team</span
+                >, playing a pivotal role in ensuring a smooth transition during
+                the company's brand migration process.
+              </li>
+              <li class="py-3">
+                Provided exceptional <span>customer support</span> and
+                assistance to broadband customers, ensuring their technical and
+                non-technical issues were resolved promptly.
+              </li>
+              <li class="py-3">
+                Demonstrated exceptional <span>communication skills</span>,
+                ensuring effective handling of customer inquiries and complex
+                problems.
+              </li>
+              <li class="py-3">
+                Collaborated with cross-functional <span>teams</span> to
+                optimize customer service processes and enhance efficiency.
+              </li>
+              <li class="py-3">
+                Maintained consistently high levels of customer satisfaction,
+                receiving <span>positive feedback</span>.
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <!-- Experience End -->
-      <!-- Education and Activities -->
-      <div class="container">
-        <h2 class="pb-2 border-bottom">Education and Extra Activities:</h2>
-
-        <ul>
-          <li>2018-2022:</li>
+        <div class="col-md-10 mx-auto col-lg-5">
+          <h6>2018 - 2022</h6>
           <ul>
             <li>
               Preparation of Civil Services Examination in Gujarat, India.
@@ -340,7 +302,7 @@
               Aspirant.
             </li>
           </ul>
-          <li>2015-2018:</li>
+          <h6>2015 - 2018</h6>
           <ul>
             <li>
               Playing Cricket for National Cricket Club & Baroda Cricket
@@ -351,7 +313,7 @@
               in India
             </li>
           </ul>
-          <li>2010-2014:</li>
+          <h6>2010 - 2014</h6>
           <ul>
             <li>
               Computer Science and Engineering (Bachelor of Engineering)<br />
@@ -361,7 +323,7 @@
               Grade: 75.80% - First class with Distinction
             </li>
           </ul>
-          <li>2010:</li>
+          <h6>2010</h6>
           <ul>
             <li>
               Higher Secondary certificate examination (Science Stream)-
@@ -371,8 +333,9 @@
               ECCTIS UK)
             </li>
           </ul>
-        </ul>
+        </div>
       </div>
+      <!--Experience Section End  -->
     </div>
     <!-- Footer Strat -->
     <div class="container">
